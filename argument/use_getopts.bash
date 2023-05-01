@@ -13,9 +13,10 @@ done
 # to be processed (starting index is 1)
 # usualy use with getopts
 # ./use_getopts.bash -o abc
-echo $OPTIND
+echo "index of next arg: $OPTIND"
 
-echo $output_filename
+echo "input file name is: $input_filename"
+echo "output file name is: $output_filename"
 
 # this will collect the last string after non args.
 shift "$(($OPTIND - 1))"
