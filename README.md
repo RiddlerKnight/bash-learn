@@ -2,8 +2,6 @@
 
 This is an example of bash script that consist of many use cases.
 
-for docker run
-
 ## Jargon / Basic syntax
 
 ```bash
