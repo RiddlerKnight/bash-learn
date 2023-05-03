@@ -7,6 +7,3 @@
 # cat patients.txt | grep -i bangkok | wc -l
 
 # [[ ! -d ./output/ ]] && mkdir output
-
-
-

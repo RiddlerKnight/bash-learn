@@ -68,4 +68,3 @@ for i in ${!users[@]}
 do
     echo ${users[i]}
 done
-

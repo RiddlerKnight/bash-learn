@@ -19,4 +19,3 @@ then
 else
     echo "No input file, no file is created."
 fi
-

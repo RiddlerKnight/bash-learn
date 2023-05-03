@@ -51,4 +51,3 @@ then
 else
     echo "Bar is not btw 1-100 "
 fi
-

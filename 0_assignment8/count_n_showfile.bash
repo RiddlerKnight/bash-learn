@@ -24,4 +24,3 @@ do
         echo $file_name
     fi
 done
-

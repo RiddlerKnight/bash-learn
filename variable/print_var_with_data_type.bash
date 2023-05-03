@@ -17,4 +17,3 @@ printf "The numbers are %d\n" $super
 
 # bar=2
 # printf "The number is %d\n" ${bar}
-
