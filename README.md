@@ -12,6 +12,10 @@ This is an example of bash script that consist of many use cases.
 
 ```
 
+## Prepare Environment
+
+for docker run
+
 ```sh
 docker run -it --rm --mount type=bind,source="$(pwd)"/script,target=/app bash
 ```
