@@ -1,0 +1,11 @@
+services:
+  - name: "oauth"
+    short: "oth"
+  - name: "wallet"
+    short: "wal"
+  - name: "coupon"
+    short: "cpn"
+  - name: "trading"
+    short: "trd"
+  - name: "co-ops"
+    short: "cps"
