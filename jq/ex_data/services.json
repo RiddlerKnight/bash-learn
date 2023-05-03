@@ -1,0 +1,19 @@
+{
+  "services": {
+    "oauth": {
+      "short": "oth"
+    },
+    "wallet": {
+      "short": "wal"
+    },
+    "coupon": {
+      "short": "cpn"
+    },
+    "trading": {
+      "short": "trd"
+    },
+    "co-ops": {
+      "short": "cps"
+    }
+  }
+}
