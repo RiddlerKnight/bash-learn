@@ -17,3 +17,18 @@ CircleCI using snake_case: <https://circleci.com/docs/1.0/configuration/>
 Jenkins with dash-case: <https://github.com/jenkinsci/yaml-project-plugin/blob/master/samples/google-cloud-storage/.jenkins.yaml>
 
 `stapler-class`
+
+## YQ Flags (v4.x)
+
+```text
+  -h, --help          help for eval
+  -C, --colors        force print with colors
+  -e, --exit-status   set exit status if there are no matches or null or false is returned
+  -I, --indent int    sets indent level for output (default 2)
+  -i, --inplace       update the yaml file inplace of first yaml file given.
+  -M, --no-colors     force print with no colors
+  -N, --no-doc        Don't print document separators (---)
+  -n, --null-input    Don't read input, simply evaluate the expression given. Useful for creating yaml docs from scratch.
+  -j, --tojson        output as json. Set indent to 0 to print json in one line.
+  -v, --verbose       verbose mode
+```
