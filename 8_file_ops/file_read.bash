@@ -1,14 +1,13 @@
 #!/bin/bash
 
 # impose file name
-ENV_TEST="test.txt"
+A_FILE="test.txt"
 # save env to file
-echo "GIT_TAG=abcde" >> $ENV_TEST
+echo "GIT_TAG=abcde" >> $A_FILE
 # read from the latest writen file
-source $ENV_TEST
+source $A_FILE
 
 echo $GIT_TAG
 
 #echo $(echo "abc" | base64)
-
 #echo "$(base64 < test.bash)" 

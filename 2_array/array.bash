@@ -1,10 +1,10 @@
 #!/bin/bash
 # IFS=' '
-set +x
+# set +x
 
 arr=("a" "b")
 
-for item in ${arr[@]}
-do
-  echo "$item"
+for item in ${arr[@]}; do
+  echo $item
+  printf "%s" $item
 done
