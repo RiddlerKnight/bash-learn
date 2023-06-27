@@ -18,4 +18,6 @@ echo $aff
 source test2.bash
 echo $omg
 
+echo $(( $baz+$zee ))
+echo $(( $baz == 1 && $zee ==2 ))
 # echo $bar
