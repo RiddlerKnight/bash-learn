@@ -8,7 +8,17 @@ zee=2
 echo "($foo + $baz)" # (I'm foo + 1)
 echo '($foo + $baz)' # ($foo + $baz)
 
-bar="I'm bar"
+# ไม่สามารถเรียก ใช้งาน variable ที่เคย execute ก่อนหน้าได้
+export bar="I'm bar"
 ./test.bash
+echo $aff
 
+# สามารถเรียก vairable ที่อยู่ใน test2.bash มาใช้งานได้ และจะหายไป
+# เมื่อ script หลักที่เรียกใช้ทำงานเสร็จ
+source test2.bash
+echo $omg
+
+# Varaible can use with expression like this.
+echo $(( $baz + $zee ))
+echo $(( $baz == 1 && $zee == 2 ))
 # echo $bar
