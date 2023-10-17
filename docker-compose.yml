@@ -1,11 +1,12 @@
 # docker-compose.yml
-version: '3.9'
+version: "3.9"
 
 services:
   bash-learn:
     tty: true
     stdin_open: true
-    image: kalilinux/kali-rolling
+    #image: kalilinux/kali-rolling
+    image: alpine:latest
     #image: bash
     volumes:
       - type: bind
