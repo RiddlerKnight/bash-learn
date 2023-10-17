@@ -1,5 +1,3 @@
-
-
 CM_MESSAGE=$(cat <<EOF
 Test Commit
 It will be rollback next time.
