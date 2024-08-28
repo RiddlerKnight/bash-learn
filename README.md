@@ -25,3 +25,7 @@ for docker compose
 ```sh
 docker compose run bash-learn
 ```
+
+### Resource link
+
+https://www.geeksforgeeks.org/tee-command-linux-example/
